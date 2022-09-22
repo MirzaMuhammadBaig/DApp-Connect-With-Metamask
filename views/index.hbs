@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connect With Metamask</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src='/logo/metamask.png'>
+        <h1 id="title">Connect With Metamask Wallet</h1>
+        <br />
+        <h3 class="desc">This is a simple dApp that connects with your metamask wallet.</h3>
+        <br />
+        <hr>
+        <h3 id="subtitle">Your Wallet Status</h3>
+        <hr>
+        Network ID:<span id="networkId"></span>
+        <br />
+        <br />
+        Chain ID:<span id="chainId"></span>
+        <br />
+        <br />
+        Account:<span id="accountId"> </span>
+        <br />
+        <br />
+        Balance:<span id="balance"> </span>
+        <br />
+        <br />
+        <button id="connectToWallet">Connect With Metamask Wallet</button>
+    </div>
+    <script type="module" src="/scripts/app.js"></script>
+    <script type="module" src="/scripts/ethers-5.1.esm.min.js"></script>
+</body>
+
+</html>
