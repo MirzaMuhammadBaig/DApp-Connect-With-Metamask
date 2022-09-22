@@ -4,7 +4,7 @@ If you want to use my repo, you can.
 
 For this, you can clone my repo and use for your work.
 
-### Setting Up Environment
+### Steps
 
 First you will make front-end of metamask connection
 
